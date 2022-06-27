@@ -1,0 +1,53 @@
+body {
+    background-color: #55E9BC;
+    color: #537780;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.square {
+    height: 6.25rem;
+    width: 6.25rem;
+    background: #11D3BC;
+    transition: background-color 0.25s ease;
+    border-bottom: 0.125rem solid #55E9BC;
+    border-right: 0.125rem solid #55E9BC;
+    color: #FFFCCA;
+    font-size: 3rem;
+    cursor: pointer;
+
+}
+
+.board {
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+    border-right: 0.125rem solid #000000;
+    border-bottom: 0.125rem solid #000000;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #11D3BC;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.25s ease;
+    border-color: #282c34;
+}
+
+.btn:hover {
+    background: #55E9BC;
+    color: #282c34;
+}
