@@ -1,6 +1,6 @@
 # Tic Tac Toe React App
 
-## [Live Preview](https://shahbazhassan42000.github.io/)
+## [Live Preview](https://tictactoe-react-shahbazhassan42000.vercel.app/)
 
 ## Getting Started with Create React App
 
